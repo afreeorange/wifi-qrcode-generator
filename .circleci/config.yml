@@ -8,4 +8,5 @@ jobs:
 
       - run:
           name: Deploying to public.nikhil.io
-          command: aws s3 sync index.html s3://public.nikhil.io/wifi-qrcode-generator/
+          command: aws s3 cp index.html s3://public.nikhil.io/wifi-qrcode-generator/
+
