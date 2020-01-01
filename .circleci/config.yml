@@ -11,3 +11,4 @@ jobs:
           command: |
             inline-source --compress true --root ./ index.html > build.html
             aws s3 cp build.html s3://public.nikhil.io/wifi-qrcode-generator/index.html
+            aws s3 cp og-image.png s3://public.nikhil.io/wifi-qrcode-generator/
