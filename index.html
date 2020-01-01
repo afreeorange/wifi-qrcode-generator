@@ -15,7 +15,7 @@
         <link inline href="index.css" rel="stylesheet">
     </head>
     <body>
-        <h1>📡 Wifi QR Code Generator</h1>
+        <h1>Wifi QR Code Generator</h1>
         <p>
             Enter your network's name and password, and maybe make things a
             little colorful. I don't store this info anywhere (you can <a
@@ -40,8 +40,11 @@
                 <tr>
                     <th>Colors</th>
                     <td>
-                        Foreground: <input type="button" class="color-foreground jscolor {value:'000000'}">
-                        Background: <input type="button" class="color-background jscolor {value:'ffffff'}">
+                        <input type="hidden" id="foreground" class="color-foreground" value="#000000">
+                        <button class="jscolor {valueElement: 'foreground'}">Foreground</button>
+
+                        <input type="hidden" id="background" class="color-background" value="#FFFFFF">
+                        <button class="jscolor {valueElement: 'background'}">Background</button>
                     </td>
                 </tr>
             </table>

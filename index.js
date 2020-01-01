@@ -15,6 +15,10 @@
   const generateWifiString = (networkName, networkPassword) =>
     `WIFI:T:WPA;S:${networkName};P:${networkPassword};;`;
 
+  // Values 'stick' for some reason
+  $('.color-foreground').value = "#000000";
+  $('.color-background').value = "#FFFFFF";
+
   $(".name").addEventListener("keyup", e => {
     qrcode.makeCode(generateWifiString(e.target.value, $(".password").value));
   });
