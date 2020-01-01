@@ -35,9 +35,11 @@ table {
 }
 table tr th {
   text-align: left;
+  min-width: 28%;
 }
 table tr td {
   padding: 0.25em;
+  line-height: 200%;
 }
 .name,
 .password {
