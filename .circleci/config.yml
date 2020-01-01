@@ -8,5 +8,6 @@ jobs:
 
       - run:
           name: Deploying to public.nikhil.io
-          command: aws s3 cp index.html s3://public.nikhil.io/wifi-qrcode-generator/
-
+          command: |
+            inline-source --compress true --root ./ index.html > build.html
+            aws s3 cp build.html s3://public.nikhil.io/wifi-qrcode-generator/index.html

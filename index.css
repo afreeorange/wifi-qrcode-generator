@@ -1,0 +1,78 @@
+html, body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+h1 {
+  font-weight: bold;
+  padding: 0 0.75em;
+  text-align: center;
+}
+a {
+  color: #CC0000;
+  text-decoration: none;
+  border-bottom: 3px dotted #999;
+}
+a:hover {
+  color: red;
+  border-bottom: 3px dotted red;
+}
+p {
+  line-height: 165%;
+  margin: 1em auto 0 auto;
+  max-width: 512px;
+  padding: 0 0.75em;
+}
+.controls {
+  margin: 1em auto 2em auto;
+  max-width: 512px;
+  padding: 0 0.75em;
+}
+table {
+  border-bottom: 1px dotted #ccc;
+  border-top: 1px dotted #ccc;
+  margin: 0.5em auto;
+  padding: 0.5em 0;
+  width: 100%;
+}
+table tr th {
+  text-align: left;
+}
+table tr td {
+  padding: 0.25em;
+}
+.name,
+.password {
+  border: 3px double #ccc;
+  padding: 0.25em;
+  width: 98%;
+}
+input[type=button] {
+  border: 3px double #ccc;
+}
+input[type=button]:nth-child(1) {
+  margin-right: 1.5em;
+}
+.jscolor {
+  cursor: pointer;
+}
+.jscolor {
+  border-radius: 10px;
+}
+.qrcode {
+  box-sizing: border-box;
+  margin: 1em auto 2em auto;
+  padding: 0 0.75em;
+  width: 100%;
+}
+.qrcode img {
+  width: 100%;
+}
+.github {
+  margin: 1em auto 2em auto;
+  width: 200px;
+}
+.github img {
+  margin-right: 0.25em;
+  opacity: 0.5;
+  vertical-align: top;
+  width: 20px;
+}

@@ -9,6 +9,7 @@ Uses:
 * [IBM Plex](https://fonts.google.com/featured/Plex)
 * [jscolor](http://jscolor.com/)
 * [QRCode.js](https://github.com/davidshimjs/qrcodejs)
+* [download.js](http://danml.com/download.html)
 
 License
 -------
