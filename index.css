@@ -68,7 +68,6 @@ table tr td div {
   box-sizing: border-box;
   cursor: pointer;
   margin: 1em auto 2em auto;
-  padding: 0 0.75em;
   max-width: 512px;
 }
 .qrcode img {
