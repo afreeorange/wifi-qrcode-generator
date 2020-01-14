@@ -9,11 +9,11 @@ h1 {
 a {
   color: #CC0000;
   text-decoration: none;
-  border-bottom: 3px dotted #999;
+  border-bottom: 2px dotted #999;
 }
 a:hover {
   color: red;
-  border-bottom: 3px dotted red;
+  border-bottom: 2px dotted red;
 }
 p {
   line-height: 165%;
@@ -22,7 +22,7 @@ p {
   padding: 0 0.75em;
 }
 .controls {
-  margin: 1em auto 2em auto;
+  margin: 1em auto 1em auto;
   max-width: 512px;
   padding: 0 0.75em;
 }
@@ -60,14 +60,19 @@ table tr td div {
 .jscolor {
   border-radius: 10px;
 }
+.download-message {
+  text-align: center;
+  color: #999;
+}
 .qrcode {
   box-sizing: border-box;
+  cursor: pointer;
   margin: 1em auto 2em auto;
   padding: 0 0.75em;
-  width: 100%;
+  max-width: 512px;
 }
 .qrcode img {
-  width: 100%;
+  max-width: 100%;
 }
 .github {
   margin: 1em auto 2em auto;

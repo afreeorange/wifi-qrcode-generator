@@ -44,4 +44,12 @@
       "image/png",
     );
   });
+
+  $(".qrcode").addEventListener("click", () => {
+    download(
+      $(".qrcode").getElementsByTagName("img")[0].src,
+      $(".name").value + ".png",
+      "image/png",
+    );
+  });
 })();
